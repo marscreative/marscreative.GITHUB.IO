@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg1.jpg) no-repeat;
+    background-size: cover;
+  }
+  .box{
+    width: 450px;
+    background: rgba(89, 58, 129, 0.7);
+    padding: 40px;
+    border-radius: 3%;
+    text-align: center;
+    margin: auto;
+    margin-top: 1%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: solid rgb(102, 102, 102);
+  }
+  .box h1{
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+  .box h6{
+      font-size: 12px;
+      letter-spacing: 2px;
+      font-weight: 150;
+  }
+  .box p{
+    text-align: center;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 200ms;
+  }
+  .box li a:hover{
+    color: #b6adad;
+  }
+  
+ 
+  .card 
+  {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    padding: 30px 5px;
+    clip-path: circle(5% at 95% 11%);
+    transition: all ease-in-out 0.3s;
+    background-color: #ffffff;
+  }
+  .card__infoicon 
+  {
+    position: absolute;
+    top: 6.8px;
+    right: 15px;
+    font-size: 1.2em;
+    color: #000000;
+    transition: ease-out 0.3s;
+  }
+  .card__title 
+  {
+    color: rgb(71, 71, 71);
+    font-family: "Century Gothic", sans-serif;
+    margin-top: auto;
+    
+    font-size: x-large;
+  }
+  .card__description 
+  {
+    margin: 0;
+    color: rgb(71, 71, 71);
+    line-height: 1.2;
+  }
+  .card__credits 
+  {
+    margin: 0;
+    color: rgb(71, 71, 71);
+    padding: 4px 0;
+  }
+  .card__reference 
+  {
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+    color: #0099ff;
+    text-decoration: none;
+    transition: ease-in 0.3s;
+  }
+  .card__reference:hover {
+    border-bottom-color: #0099ff;
+  }
+  .card:hover, .card:focus 
+  {
+    clip-path: circle(75%);
+    border-radius: 20px;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08);
+    background: #dddddd;
+    outline: none;
+  }
+  .card:hover .card__infoicon, .card:focus .card__infoicon 
+  {
+    opacity: 0;
+  }
+  .card:focus 
+  {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.12), 0px 3px 18px rgba(0, 0, 0, 0.08), 0px 0px 0px 4px rgba(0, 0, 0, 0.2);
+  }
